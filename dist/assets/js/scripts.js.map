@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["teste","console","log"],"mappings":"aAAA,IAAAA,MAAA,WACAC,QAAAC,IAAA,SACAD,QAAAC,IAAA","file":"scripts.js","sourcesContent":["const teste = ()=>{\n\tconsole.log('teste');\n\tconsole.log('foi');\n}\n"]}

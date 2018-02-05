@@ -1,0 +1,42 @@
+header {
+	position: relative;
+
+	margin: auto;
+
+	overflow: hidden;
+
+	text-align: center;
+
+	background-image: url('../img/header/bg-header-768.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+
+
+	@media (min-width: 768px) {
+		background-image: url('../img/header/bg-header-1024.jpg');
+	}
+	@media (min-width: 1024px) {
+		background-image: url('../img/header/bg-header-1280.jpg');
+	}
+}
+
+.header-books {
+	position: relative;
+
+	width: 80%;
+
+	padding: 30px 20px;
+}
+.header-effect {
+	position: absolute;
+
+	width: 100%;
+	img {
+		height: 100%;
+
+		object-fit: cover;
+
+		animation-duration: 2s;
+		animation-duration: 5s;
+	}
+}

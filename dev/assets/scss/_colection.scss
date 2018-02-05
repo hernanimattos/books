@@ -1,0 +1,41 @@
+.colection {
+	position: relative;
+
+	background: url('../img/colection/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.wrapper-books {
+	position: absolute;
+	top: 125%;
+	right: 0;
+	left: 0;
+
+	width: 80%;
+
+	margin-right: auto;
+	margin-left: auto;;
+}
+.books-img {
+	position: relative;
+
+	z-index: 1;
+
+	width: 100%;
+}
+.books-lines {
+	position: absolute;
+	top: 80%;
+
+	width: 100%;
+}
+
+.book {
+	position: relative;
+	&-title {
+		font-size: $font-title;
+	}
+	&-description {
+		font-size: $font-article-description;
+	}
+}
